@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <body>
+            <h1 align="center"><b><u> Student Register Form</u></b></h1>
+            <form name="myform" method="post" onsubmit="return validate()">
+                <table align="center" cellpadding="10" width="40%"   bgcolor="pink" cellspacing="2" border="1">
+                    <tr>
+                        <td><b><h3>First Name</td>
+                        <td><input type="text" name="fname" maxlength="30"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Last Name</td>
+                        <td><input type="text" name="lname" maxlength="30" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Date of Birth</td>
+                        <td><input type="date" name="date" id="date" min="2002-28-12"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Email ID</td>
+                        <td><input type="text" name="email" maxlength="100"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>phone</td>
+                        <td><input type="text" name="phone"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Gender</td>
+                        <td>Male<input type="radio" name="gender" value="male"/>
+                        Female<input type="radio" name="gender" value="female"/>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Address</td>
+                        <td><textarea name="address" cols="50" rows="6"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>State</td>
+                        <td><select id="state" name="State">
+                            <option value="select a state">select a state</option>
+
+                            <option value="assam">india</option>
+                            <option value="assam">monipur</option>
+                            <option value="assam">delhi</option>
+                            <option value="assam">kolkata</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Conutry</td>
+                        <td><input type="text" value="india" name="Conutry" readonly="readonly"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><h3>Hobbies</td>
+                        <td>Dansing:<input type="checkbox" name="hobby" id="hobby" value="danse"/>
+                            playing:<input type="checkbox" name="hobby" id="hobby" value="play"/>
+                            Swimming:<input type="checkbox" name="hobby" id="hobby" value="swim"/>
+                            Drewing:<input type="checkbox" name="hobby" id="hobby" value="draw"/>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" value="submit"/>
+                        </td>
+                    </tr>
+
+                    
+
+
+
+
+
+                
+               
+               
+               
+                </table>
+             </form>
+            
+            <script src="Form.js"></script>
+        </body>
+    </head>
+</html>
